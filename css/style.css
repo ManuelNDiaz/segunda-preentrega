@@ -338,6 +338,10 @@ section {
     opacity: 1;
 }
 
+.contenedor .carta:hover .face.face1 #iconoser1 {
+    display: none;
+}
+
 .contenedor .carta .face.face1 .contentser i {
     margin: 10px 0 10px ;
     padding: 0;
@@ -371,6 +375,12 @@ section {
 #iconoser {
     display: flex;
     justify-content: center;
+}
+
+#iconoser1 {
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* Mantenimiento */
